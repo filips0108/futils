@@ -1,0 +1,51 @@
+{
+	"help": {
+		"functionName": "help",
+		"module": "main",
+		"needsDirPointer": false,
+		"args": [],
+		"desc": "Help"
+	},
+	"ls": {
+		"functionName": "ls",
+		"module": "main",
+		"needsDirPointer": true,
+		"args": [],
+		"desc": "List children"
+	},
+	"const": {
+		"functionName": "construct",
+		"module": "main",
+		"needsDirPointer": true,
+		"args": ["name"],
+		"desc": "Make a file"
+	},
+	"constdir": {
+		"functionName": "constructdir",
+		"module": "main",
+		"needsDirPointer": true,
+		"args": ["name"],
+		"desc": "Make a directory"
+	},
+	"mv": {
+		"functionName": "mv",
+		"module": "main",
+		"needsDirPointer": true,
+		"args": ["file", "destination"],
+		"desc": "Move a file from A to B"
+	},
+	"crunch": {
+		"functionName": "calculate",
+		"module": "main",
+		"needsDirPointer": false,
+		"args": ["equasion"],
+		"desc": "Eval numbers with operations (+,-,*,/)"
+	},
+	"remv": {
+		"functionName": "rmv",
+		"module": "main",
+		"needsDirPointer": true,
+		"args": ["file"],
+		"desc": "Remove a file/directory"
+	}
+}
