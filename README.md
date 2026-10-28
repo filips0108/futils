@@ -144,6 +144,6 @@ remv <main.rmv> --> Remove a file/directory
 
 ## Status
 
-🟢 **Active / Learning Project**
+🔴 **Not active / Learning Project**
 
 `futils` is primarily a learning project and may receive new commands and architectural improvements over time.
